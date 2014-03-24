@@ -7,8 +7,8 @@ MobileBO
 使用方法
 ---
 
-1. 将 `build` 文件夹中的 jar 加入 buildpath
-2. 在 web.xml 中加入
+- 将 `build` 文件夹中的 jar 加入 buildpath
+- 在 `web.xml` 中加入
 ```
 <servlet>
     <servlet-name>MobileSubmitAction</servlet-name>
@@ -19,7 +19,7 @@ MobileBO
     <url-pattern>/servlet/MobileSubmitAction</url-pattern>
 </servlet-mapping> 
 ```
-3. 确保 common_config.xml 中，在 `<common>` 标签下有如下配置
+- 确保 `common_config.xml` 中，在 `<common>` 标签下有如下配置
 ```
 <!-- 手机后台 -->
 <mobile>
@@ -38,4 +38,4 @@ MobileBO
     <systemAccount>etframework</systemAccount>
 </mobile>
 ```
-4. 继承 MobileBO，实现模板方法
+- 继承 MobileBO，实现模板方法
